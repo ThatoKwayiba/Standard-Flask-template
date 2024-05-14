@@ -9,5 +9,5 @@ class services(Base):
     id = Column(Integer, primary_key=True)
 
 
-engine = create_engine('postgresql://postgres:Igus3r1234@10.8.1.11:5432')
+engine = create_engine('postgresql://postgres:{password}@{ip_and_port}')
 Base.metadata.create_all(engine)

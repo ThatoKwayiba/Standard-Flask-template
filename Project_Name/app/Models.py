@@ -5,7 +5,7 @@ Base = declarative_base()
 
 
 class services(Base):
-    __tablename__ = "services"
+    __tablename__ = "table_name"
     id = Column(Integer, primary_key=True)
 
 

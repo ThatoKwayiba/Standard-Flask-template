@@ -8,7 +8,7 @@ class services(Base):
     __tablename__ = "table_name"
     id = Column(Integer, primary_key=True)
 
-passsword = 'not_password'
+password = 'not_password'
 ip_and_port = 'ip:port'
 
 engine = create_engine(f'postgresql://postgres:{password}@{ip_and_port}')
